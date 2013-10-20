@@ -2,8 +2,5 @@
 
 class nano::must::die {
 
-  package { 'nano':
-    ensure => absent,
-  }
-
+  include nano
 }
